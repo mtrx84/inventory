@@ -369,7 +369,7 @@
               }
             },
             {
-              "działanie": "Wyszukiwarka po znalezieniu produktu powinna zamknąć się automatycznie. W przeciwnym wypadku poinformować, że towar nie został znaleziony. Wyszukiwanie nie powinno się też odbywać tylko w wybranej kategrorii, a raczej tak jak na stronie głównej w całym asortymencie",
+              "działanie": "Wyszukiwarka po znalezieniu produktu powinna zamknąć się automatycznie. W przeciwnym wypadku poinformować, że towar nie został znaleziony. Wyszukiwanie nie powinno się też odbywać tylko w wybranej kategrorii, a raczej tak jak na stronie głównej w całym asortymencie.",
               "kolor": "primary",
               "priorytet": "4",
               "status": "right",

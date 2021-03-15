@@ -125,7 +125,7 @@
               "status": "left",
               "szczegóły": {
                 "tekst": "Na szczegółach zamówienia w aplikacji nie są pokazane dane do faktury",
-                "zdjęcie": "./img/zał1_karta.JPG"
+                "zdjęcie": "../img/zał1_karta.JPG"
               }
             },
             {
@@ -135,7 +135,7 @@
               "status": "left",
               "szczegóły": {
                 "tekst": "Chekbox - może ustawić go na środku i po jednej stronie niech będzie tekst 'osoba prywatna, a po drugiej 'firma'. Również 'firma' powinna być ustawiona jak wybór domyślny. Klient zamawiał na fakturę, nie widział opcji na firmę więc wypełnił dane na osobę prywatną.",
-                "zdjęcie": "./img/zał5_dane_faktury_firma.JPG"
+                "zdjęcie": "../img/zał5_dane_faktury_firma.JPG"
               }
             },
             {

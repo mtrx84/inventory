@@ -27,7 +27,7 @@ function createTask(moduleName, taskTitle, action, color, priority, status, text
 }
 
 async function getData() {
-  const dataRes = await fetch('/data.json')
+  const dataRes = await fetch('./data.json')
   const dataJson = await dataRes.json()
   // console.log(dataJson.moduły)
   const module = dataJson.moduły

@@ -309,6 +309,36 @@
           "tytuł": "Do weryfikacji",
           "opis": [
             {
+              "działanie": "Proces marketingowy (specjalne oferty czasowe, kupony wysyłane jako powiadomienia, karta rabatowa)",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Proces sprzedażowy (możliwość skladania zamówień B2C, B2B, Wypożyczalnia, przesyłanie zamówień do hermesa) ",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Proces informacyjny (powiadomienia, rozliczenia)",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
               "działanie": "Zdjęcia nie mieszczą się w miniaturze",
               "kolor": "primary",
               "priorytet": "4",
@@ -320,6 +350,16 @@
             },
             {
               "działanie": "Odbiór w placówce wyświetla dane klienta zamiast miejsca odbioru",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Dostawy z podaną opłatą",
               "kolor": "primary",
               "priorytet": "4",
               "status": "",

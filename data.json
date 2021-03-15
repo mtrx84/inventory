@@ -204,7 +204,7 @@
               "priorytet": "1",
               "status": "left",
               "szczegóły": {
-                "tekst": "https://mtrx84.github.io/discoutns/",
+                "tekst": "https://mtrx84.github.io/discoutns/ Uwaga! Przykład nie uwzględnia przydzielania rabatów na pojedyncze produkty, który również powinien być wdrożony",
                 "zdjęcie": ""
               }
             },
@@ -294,7 +294,7 @@
               "priorytet": "3",
               "status": "right",
               "szczegóły": {
-                "tekst": "Dla wybranych towarów, na podobnej zasadzie jak w przypadku grup rabatowych, wg określonych warunków terminowości rozliczeń oraz założonej wielkości obrotu wyliczyć procentową kwotę bonusu. Przykład: Rabaty - Producent Stalco : 30%, Bonusy - Producent Stalco - Bonus 2%. Do przygotowania jest również mechanizm rozliczenia bonusu (zerowania).",
+                "tekst": "Dla wybranych towarów, na podobnej zasadzie jak w przypadku grup rabatowych, wg określonych warunków terminowości rozliczeń oraz założonej wielkości obrotu wyliczyć procentową kwotę bonusu. Przykład: Rabaty - Producent Stalco : 30%, Bonusy - Producent Stalco - Bonus 2%. Do przygotowania jest również mechanizm rozliczenia bonusu (zerowania). Należy również uwzględnić wyłączenie części produktów lub kategorii z wyliczenia bonusu",
                 "zdjęcie": ""
               }
             }

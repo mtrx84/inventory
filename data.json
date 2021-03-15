@@ -379,12 +379,12 @@
               }
             },
             {
-              "działanie": "Wyszukiwarka po znalezieniu produktu powinna zamknąć się automatycznie... ",
+              "działanie": "Wyszukiwarka po znalezieniu produktu powinna zamknąć się automatycznie...",
               "kolor": "primary",
               "priorytet": "4",
               "status": "",
               "szczegóły": {
-                "tekst": "W przeciwnym wypadku poinformować, że towar nie został znaleziony. Pytanie też czy towar ma szukać tylko w wybranej kategrorii, tak widziałem jest teraz, a raczej powinna w całym asortymencie. Najlepiej zastosować mechanizm z aplikacji webowej, tam jest już w miarę dopracowny",
+                "tekst": "W przeciwnym wypadku poinformować, że towar nie został znaleziony. Wyszukiwanie nie powinno się też odbywać tylko w wybranej kategrorii, a raczej tak jak na stronie głównej w całym asortymencie",
                 "zdjęcie": ""
               }
             }

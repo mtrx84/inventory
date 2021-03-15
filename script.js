@@ -3,7 +3,7 @@ const delSuccessEl = document.getElementById('deleteSuccess');
 let tasksArr = []
 
 function createTask(moduleName, taskTitle, action, color, priority, status, text, image, taskId) {
-  console.log(moduleName, taskTitle, action, color, priority, status, text, image)
+  // console.log(moduleName, taskTitle, action, color, priority, status, text, image)
 
   class Task {
 
@@ -68,8 +68,7 @@ async function getData() {
         const text = taskDesc[h].szczegóły.tekst
         const image = taskDesc[h].szczegóły.zdjęcie
         const taskId = `${moduleName}-${j}-${h}`
-        console.log(taskId)
-
+        console.log(action)
         if (text !== "" || image !== "") {
 
           document.getElementById(`${moduleName}${j}`).innerHTML += `
@@ -115,7 +114,9 @@ const showText = (value) => {
 
 
 
-  infoTextEl.innerHTML = `
+  console.log(`${task}`)
+  infoTextEl.innerHTML =
+    `
   <div >
     <h4 class='text-dark'>${task.action} </h4>
     <p> ${task.text}</p>
@@ -124,7 +125,7 @@ const showText = (value) => {
     <button id="closeInfo" class="close btn btn-secondary" onclick = 'closeInfoText()'>Zamknij</button>
   </div>
   `
-
+  console.log(task.action)
   document.getElementById('cont').appendChild(infoTextEl)
   setTimeout(function () { showEl.classList.add('blur') }, 200);
   document.querySelectorAll('.details').forEach(el => { el.setAttribute('disabled', 'disabled') })

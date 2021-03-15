@@ -105,7 +105,7 @@
               "status": "right",
               "szczegóły": {
                 "tekst": "Uruchomić możliwość ręcznej zmiany statusów zamówienia oraz wskazać, w którym momencie zamówienie zostaje wysłane do Hermesa.",
-                "zdjęcie": "./statusy.JPG"
+                "zdjęcie": "./img/statusy.JPG"
               }
             },
             {
@@ -369,22 +369,22 @@
               }
             },
             {
-              "działanie": "Haotyczne sortowanie produktów",
+              "działanie": "Wyszukiwarka po znalezieniu produktu powinna zamknąć się automatycznie. W przeciwnym wypadku poinformować, że towar nie został znaleziony. Wyszukiwanie nie powinno się też odbywać tylko w wybranej kategrorii, a raczej tak jak na stronie głównej w całym asortymencie",
               "kolor": "primary",
               "priorytet": "4",
-              "status": "",
+              "status": "right",
               "szczegóły": {
                 "tekst": "",
                 "zdjęcie": ""
               }
             },
             {
-              "działanie": "Wyszukiwarka po znalezieniu produktu powinna zamknąć się automatycznie...",
+              "działanie": "chaotyczne sortowanie produktów",
               "kolor": "primary",
               "priorytet": "4",
               "status": "",
               "szczegóły": {
-                "tekst": "W przeciwnym wypadku poinformować, że towar nie został znaleziony. Wyszukiwanie nie powinno się też odbywać tylko w wybranej kategrorii, a raczej tak jak na stronie głównej w całym asortymencie",
+                "tekst": "",
                 "zdjęcie": ""
               }
             }
@@ -745,7 +745,7 @@
             },
             {
               "działanie": "Bestsellery, Nowości, Już dostępne - mechanizm działania",
-              "kolor": "danger",
+              "kolor": "success",
               "priorytet": 3,
               "status": "right",
               "szczegóły": {

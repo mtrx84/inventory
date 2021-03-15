@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', arial;
+  overflow: scroll;
+}
+
+
+.remove {
+  display: none;
+}
+
+.active {
+  position: fixed;
+  top: 50%;
+  left: -100%;
+  min-width: 80%;
+  min-height: 80%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  /* height: 50vw; */
+  width: 50vh;
+  background-color: #fff;
+  z-index: 2;
+ /* display: none; */
+  transition: left .5s linear;
+}
+.active.block{
+  display:block;
+ left: 50%;
+ 
+  
+ 
+}
+
+
+.tasks {
+  transition: filter .5s linear;
+margin-top: 70px;
+padding: 20px;
+}
+.navi{
+  top:0;
+  left:6%;
+  right: 6%;
+ min-height: 60px;
+ transition: top .3s linear;
+}
+.navi.noDisplay{
+  top:-60px;
+
+}
+
+.blur {
+  
+  filter: blur(6px);
+ 
+  transition: filter .5s linear;
+}
+
+.close {
+  text-align: right;
+}
+
+
+.bi-x-square {
+  /* display: block; */
+  font-size: 20px;
+  text-align: right;
+  cursor: pointer;
+  border-radius: 6px;
+  
+}
+[class*=" bi-"]::before{
+  vertical-align: -0.25em;
+}
+
+.btn {
+
+  /* text-transform: uppercase; */
+  /* background-color: #3498db; */
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 3px 10px;
+  /* margin: 0 5px; */
+  font-size: 10px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+  border: none
+}
+
+.btn:active {
+  /* transform: scale(0.98); */
+  box-shadow: none;
+  border: none;
+}
+
+.btn-secondary:active:focus {
+  box-shadow: none;
+}
+
+.btn:disabled {
+  /* background-color: #e0e0e0; */
+  /* background-color: #3498db; */
+  cursor: not-allowed;
+}
+
+span.btn:hover {
+  cursor: auto;
+}
+
+.close {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.status {
+  font-size: 20px;
+  color: black;
+}
+.legend{
+  font-size: 14px;
+}
+.logo{
+width: 120px;
+}
+
+@media (max-width: 500px){
+  .legend{font-size: 10px;}
+  .legend .legendIn{
+    font-size: 10px;
+ margin-top: 0;
+  }
+  .legend .status{
+    font-size: 16px; 
+   
+ 
+  }
+}

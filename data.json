@@ -1,0 +1,1361 @@
+{
+  "__legenda": {
+    "status": "up - zrobione (up), down - w trakcie, left - do poprawy, right - do zrobienia, nie ruszone (right)",
+    "priorytet": "1 - bardzo pilne (danger), 2 - pilne (warning), 3 - poczeka (success), 4 - odłożone (primary), 5 - zrobione (info)"
+  },
+  "__wzór": {
+    "moduł": "WZÓR",
+    "zadania": {
+      "moduł": "",
+      "zadania": [
+        {
+          "tytuł": "WZÓR",
+          "opis": [
+            {
+              "działanie": "",
+              "kolor": "klkl",
+              "priorytet": "",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "moduły": [
+    {
+      "moduł": "B2C",
+      "zadania": [
+        {
+          "tytuł": "Rejestracja użytkowników",
+          "opis": [
+            {
+              "działanie": "Zamówienie bez rejestracji za każdym razem tworzy nowego kontrahenta",
+              "kolor": "warning",
+              "priorytet": "2",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "Czy musi zakładać kontrahenta i czy za każdym razem będzie zakładać nowego pomimo składania zamówień przez jedną osobę? Może kierować zamówienia na jednego kontrahenta np. okaziciel lub identyfikować klienta w hermesie po adresie email.",
+                "zdjęcie": "/img/hermes-lista-kontrahentow.JPG"
+              }
+            }
+          ]
+        },
+        {
+          "tytuł": "Proces Sprzedażowy",
+          "opis": [
+            {
+              "działanie": "Zakupy ratalny - do sprawdzenia metoda TPay, czy inna metoda wyświetla taką opcję.",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Dodać zakładkę na produkcie – klienci, którzy kupili ten produkt kupili również...",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Implementacja dostaw do paczkomatów Inpost",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Implementacja płatności LeaseLink",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Jednostki miary - 100szt, m, mb, m2",
+              "kolor": "warning",
+              "priorytet": "2",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "W tej chwili możemy dodawać tylko liczby naturalne, a klient może zechcieć zakupić np. 0,5/m lub 0,15/100szt. Jeżeli produkt posiada j.m. 100szt, m, mb, m2 to powinna być możliwość dodawania ilości ułamkowych",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Zmiana statusów zamówienia",
+              "kolor": "danger",
+              "priorytet": "1",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Uruchomić możliwość ręcznej zmiany statusów zamówienia oraz wskazać, w którym momencie zamówienie zostaje wysłane do Hermesa.",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Numer telefonu oznaczyć polem wymaganym podczas zakupów bez logowania",
+              "kolor": "warning",
+              "priorytet": 2,
+              "status": "left",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Szczegóły zamówienia w aplikacji",
+              "kolor": "warning",
+              "priorytet": 2,
+              "status": "left",
+              "szczegóły": {
+                "tekst": "Na szczegółach zamówienia w aplikacji nie są pokazane dane do faktury",
+                "zdjęcie": "/img/zał1_karta.JPG"
+              }
+            },
+            {
+              "działanie": "Dane do faktury",
+              "kolor": "warning",
+              "priorytet": 2,
+              "status": "left",
+              "szczegóły": {
+                "tekst": "Chekbox - może ustawić go na środku i po jednej stronie niech będzie tekst 'osoba prywatna, a po drugiej 'firma'. Również 'firma' powinna być ustawiona jak wybór domyślny. Klient zamawiał na fakturę, nie widział opcji na firmę więc wypełnił dane na osobę prywatną.",
+                "zdjęcie": "/img/zał5_dane_faktury_firma.JPG"
+              }
+            },
+            {
+              "działanie": "Połączenie karty rabatowej z kontem klienta",
+              "kolor": "success",
+              "priorytet": 3,
+              "status": "left",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Zakupy z użyciem kuponów rabatowych",
+              "kolor": "success",
+              "priorytet": 3,
+              "status": "right",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        },
+        {
+          "tytuł": "Raporty sprzedażowe",
+          "opis": [
+            {
+              "działanie": "Do przygotowania",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduł": "B2B",
+      "zadania": [
+        {
+          "tytuł": "Rejestracja użytkowników",
+          "opis": [
+            {
+              "działanie": "Rejestracja klientów B2B + połączenie z kontrahentem w Hermesie po weryfikacji",
+              "kolor": "danger",
+              "priorytet": 1,
+              "status": "left",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        },
+        {
+          "tytuł": "Proces Sprzedażowy",
+          "opis": [
+            {
+              "działanie": "System rabatowy",
+              "kolor": "danger",
+              "priorytet": "1",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "https://mtrx84.github.io/discoutns/",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Koszyk zakupów",
+              "kolor": "success",
+              "priorytet": "3",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Możliwość dodawania produktów do 3 koszyków dla klientów hurtowych",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "historia dokonanych transakcji",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "up",
+              "szczegóły": {
+                "tekst": "Dokumenty sprzedażowe do weryfikacji",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Dostęp do rozliczeń i przypomnienia o płatnościach",
+              "kolor": "success",
+              "priorytet": "3",
+              "status": "up",
+              "szczegóły": {
+                "tekst": "Do weryfikacji po synchronizacji kontrahentów aplikacja-hermes",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Oferty i promocje widoczne tylko dla klientów B2B",
+              "kolor": "primary",
+              "priorytet": 4,
+              "status": "right",
+              "szczegóły": {
+                "tekst": "W blokach statycznych ustawić checkbox, który po przełączeniu pkaże je tylko kontom B2B. Standardowe położenie udostępnia wybrany blok wszystkim użytkownikom",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Zakupy z użyciem kodów rabatowych",
+              "kolor": "primary",
+              "priorytet": 4,
+              "status": "right",
+              "szczegóły": {
+                "tekst": "W wersji produkcyjnej możiwość na całe Stalco.",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        },
+        {
+          "tytuł": "Raporty sprzedażowe",
+          "opis": [
+            {
+              "działanie": "Do przygotowania",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        },
+        {
+          "tytuł": "Bonusy",
+          "opis": [
+            {
+              "działanie": "Obliczanie bonusu klienta na postawie zadanych warunków",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduł": "APLIKACJA MOBILNA",
+      "zadania": [
+        {
+          "tytuł": "Do weryfikacji",
+          "opis": [
+            {
+              "działanie": "",
+              "kolor": "",
+              "priorytet": "",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduł": "WYPOŻYCZALNIA",
+      "zadania": [
+        {
+          "tytuł": "Kwota za wypożyczenia",
+          "opis": [
+            {
+              "działanie": "Błąd - 3 dni, dzień zwortu sobota",
+              "kolor": "danger",
+              "priorytet": "1",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "Cena za trzy doby - w przypadku kiedy kończą się w sobotę - jest nieprawidłowa, dopiero 3 doby i 1 godzina pokazuje prawidłową.",
+                "zdjęcie": "/img/wypozyczalnia_sobota2.JPG"
+              }
+            },
+            {
+              "działanie": "Godziny wypożyczeń, umożliwić wybór co pół godziny",
+              "kolor": "danger",
+              "priorytet": 1,
+              "status": "left",
+              "szczegóły": {
+                "tekst": "W tej chwili zaokrąglenie godziny w górę następuje już po kwadransie bieżącej godziny",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        },
+        {
+          "tytuł": "Front",
+          "opis": [
+            {
+              "działanie": "Podsumowanie kwoty za wypożyczenie",
+              "kolor": "warning",
+              "priorytet": 2,
+              "status": "left",
+              "szczegóły": {
+                "tekst": "Podsumowanie (kwota za jedną dobę) pojawia się po wybraniu daty wypożyczenia, a powinno po zwrocie",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Informacja o kaucji",
+              "kolor": "success",
+              "priorytet": "3",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Na kartotece produktu obok kwoty za wypożyczenia  (podsumowanie) – wstawić tekst ‘Kaucja za wypożyczenie urządzenia WARTOŚĆ  zł’ , gdzie WARTOŚĆ będzie zaciągana z danych technicznych po ustawieniu parametru „Kaucja”, w przeciwnym razie 0.",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Wyświetlanie produktów",
+              "kolor": "success",
+              "priorytet": "3",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Po wejściu w kategorię niech produkty od razu się wyświetlają bez konieczności kolejnego kliknięcia w 'Pokaż wszystkie z kategorii...'",
+                "zdjęcie": "/img/wyswietlanie-produktow-wypozyczalnia.JPG"
+              }
+            }
+          ]
+        },
+        {
+          "tytuł": "Proces wypożyczenia",
+          "opis": [
+            {
+              "działanie": "Automatyczne uzupełnianie formularza.",
+              "kolor": "danger",
+              "priorytet": "1",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "https://drive.google.com/file/d/1z_oCU55v-N0SxP9MGVE7Cx_nH1PJp4sT/view?usp=sharing",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Uruchomić i przetestować ",
+              "kolor": "danger",
+              "priorytet": "1",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduł": "REKLAMACJE",
+      "zadania": [
+        {
+          "tytuł": "Wybór użytkownika podczas składania reklamacji",
+          "opis": [
+            {
+              "działanie": "",
+              "kolor": "danger",
+              "priorytet": "1",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "Klient B2B lub B2C ze standardowymi uprawnieniami nie powinien mieć mozliwości wyboru użytkownika tylko automatycznie pole powinno być uzupełniane jego danymi. Mozliwość wyboru klienta zgłaszającego reklamację powinny mieć tylko osoby uprawnione, które mogą się wcielić winnego użytkownika. ",
+                "zdjęcie": "/img/reklamacje-klient.JPG"
+              }
+            }
+          ]
+        },
+        {
+          "tytuł": "Uruchomić i przetestować",
+          "opis": [
+            {
+              "działanie": "",
+              "kolor": "danger",
+              "priorytet": "1",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduł": "OGÓLNE",
+      "zadania": [
+        {
+          "tytuł": "PRODUKT",
+          "opis": [
+            {
+              "działanie": "Edycja produktu - dostępność",
+              "kolor": "success",
+              "priorytet": "3",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Do tabeli produktów podczas edycji dodać kolumnę dotępność z podaną ilością - pomoże to nam edytować właściwe produkty o tych samych indeksach",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Edycja produktu",
+              "kolor": "warning",
+              "priorytet": "2",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "Jeśli produkt do edycji wybraliśmy z np. 3 podstrony to po zapisaniu edytowanego produktu widok wraca do pierwszej strony listy produktów, co wydłuża pracę, jeśli chcemy edytować kolejny produkt z podstrony 3. Po zapisaniu widok powinien powrócić do wybranej podstrony",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "URL Zdjęcia produktu",
+              "kolor": "warning",
+              "priorytet": "2",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Automatyczna zamiana znaków niedozwolonych w ścieżce zdjęcia podczas zapisywania. W tej chiwili, żeby dodać zdjęcie produktu, który w indeksie posiada np. '/', musimy zmieniać indeks produktu.",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        },
+        {
+          "tytuł": "UŻYTKOWNIK",
+          "opis": [
+            {
+              "działanie": "Powiadomienie o dostępności",
+              "kolor": "success",
+              "priorytet": "3",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "Brak wysyłania wiadomości po uzupełnieniu stanu produktu.",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Opinie produktów zakupionych przez klientów",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Implementacja komunikatora Fb na stronie",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Płatność za pobraniem - koszty",
+              "kolor": "success",
+              "priorytet": "3",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "Przy ustalaniu kosztów transportu po stronie admina, koszty przesyłki za pobraniem jak i bez są takie same.",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        },
+        {
+          "tytuł": "PORADNIKI, NASZE USŁUGI",
+          "opis": [
+            {
+              "działanie": "Prawidłowe ścieżki bloków statycznych",
+              "kolor": "danger",
+              "priorytet": "1",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": "/img/url-poradniki.JPG"
+              }
+            },
+            {
+              "działanie": "Dodawanie plików pdf do repozytorium",
+              "kolor": "danger",
+              "priorytet": 1,
+              "status": "right",
+              "szczegóły": {
+                "tekst": "W tej chwili korzystamy z dysku google, jeśli chcemy dodać plik na stronę",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Nie wyświetlają się zdjęcia w iphone'ach (a przynajmniej w 6) ",
+              "kolor": "danger",
+              "priorytet": "1",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        },
+        {
+          "tytuł": "SEO",
+          "opis": [
+            {
+              "działanie": "Nieprawidłowe wyświetlanie meta znaczników oraz title",
+              "kolor": "danger",
+              "priorytet": "1",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "‘Title’ i ‘description’ strony głównej usunąć na próbę lub ładować tym samym mechanizmem jak na podstronach produktów w celu sprawdzenia zachowania robota gogle – czy zacznie indeksować produkty zgodnie z ustawionymi parametrami. Nie działa (zał_4). Uzgodnione przerobienie początkowo strona główna, kart produktów oraz kategorii  na SSR.",
+                "zdjęcie": "/img/zał_4_seo_03.02.2020.JPG"
+              }
+            },
+            {
+              "działanie": "PageSpeed Insights",
+              "kolor": "warning",
+              "priorytet": "2",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "Pomimo odczucia w miarę szybkiego działania strony wynik w teście google jest tragiczny, a ma to istotny wpływ na pozycjonowanie strony.",
+                "zdjęcie": "/img/page-speed.JPG"
+              }
+            },
+            {
+              "działanie": "Automatyczna aktualizacja pliku sitemap.xml",
+              "kolor": "warning",
+              "priorytet": "2",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        },
+        {
+          "tytuł": "FRONT",
+          "opis": [
+            {
+              "działanie": "Widok mobilny - dodać odnośnik do produktów",
+              "kolor": "success",
+              "priorytet": "3",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Dodać możliwość bezpośredniego przejścia z menu hamburger do ofert lub widok kategorii -lupka(widok mobilny).",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Widok mobilny - wybór kategorii",
+              "kolor": "warning",
+              "priorytet": "2",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Nie można wyświetlić produktów, jeśli są przyporządkowane tylko do głównej kategorii np. elektronarzędzia i jednej podkategorii np. akcesroia dodatkowe. W takim przypadku kliknięcie w akcesoria dodatkowe powinno przenieść nas do produktów z tej kategorii",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Bestsellery, Nowości, Już dostępne - wyświetlanie",
+              "kolor": "warning",
+              "priorytet": "2",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "Wyświetlanie w blokach prawidłowo, ale po wejściu w produkt, na wszystkich wyświetla się 'nowość' ",
+                "zdjęcie": "/img/zał_5.JPG"
+              }
+            },
+            {
+              "działanie": "Banner na stronie głównej",
+              "kolor": "danger",
+              "priorytet": "1",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "Baner na stronie głównej wyświetla zdjęcia wg starej kolejności, a było już dobrze zrobione - ostatnio dodany wyświetał się jako pierwszy.",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Belki statyczne do edycji",
+              "kolor": "danger",
+              "priorytet": 1,
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Belki statyczne na szerokość 100% kontenera, miejsce: pod 'wypożyczalnia|nasze usługi|poradniki|ofert' oraz pod polecanymi kategoriami",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Bootstrap oraz dostęp do css",
+              "kolor": "success",
+              "priorytet": 3,
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Nie wszystkie narzędzia bootstrapa działają poprawnie podczas użycia w blokach statycznych, dlaczego? ",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Bestsellery, Nowości, Już dostępne - wyświetlanie etykietek",
+              "kolor": "warning",
+              "priorytet": 1,
+              "status": "left",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Bestsellery, Nowości, Już dostępne - mechanizm działania",
+              "kolor": "danger",
+              "priorytet": 3,
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Zautomatyzowany mechanizm działania bloków: 'Bestsellery' - na podstawie analizy sprzedaży wartościowej lub ilościowej zadanego okresu czasu produkty najlepiej sprzedające się. 'Nowości' - wyświetlane produkty ostatnio edytowane. 'Już dostępne' - wyświetlane produkty, których zyskały dostępność, czyli produkty, które przed synchronizacją miały stan 0, a po synchronizacji stan > 0  ",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduł": "GOTOWE",
+      "zadania": [
+        {
+          "tytuł": "Zrobione lub naprawione",
+          "opis": [
+            {
+              "działanie": "Bloki statyczne w stopce Strefa klienta, Zakupy, O firmie, Newsletter  ",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Możliwość zakupu bez logowania",
+              "kolor": "info",
+              "priorytet": "1",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Dostawy - możliwość wyboru punktu odbioru",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Darmowa dostawa po przekroczeniu zadanego limitu kwoty zamowienia",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Tworzenie grup rabatowych",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Przesuwanie kolejności kategorii",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Pasek dostępności produktów",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Czyszczenie inputa ilości produktów po kliknięciu w niego",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Poziomy widok produktów",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Oznaczenie produktów nowość, bestseller, już dostępne",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Blok - polecane kategorie",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Zablokowanie płatności gotówką podczas wyboru dostawy spedycją",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Dodaj do ulubionych w widoku produktów powiązancyh",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Zakupy bez logowania - nie koryguje ilości wybranej produktu do dostepnej, na koszyku dodaje kolejną liczbę produktu, a nie sumuje.",
+              "kolor": "info",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Na widoku mobilnym problem z przesuwaniem palcem po zdjeciach i nie wczytuje produktu klikajac w zdjecie",
+              "kolor": "info",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Dodawanie producenta i marki produktów ",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Wyszukiwarka w menu przy małej rozdzielczości (hamburger) - nie działa wyszukiwanie produktów",
+              "kolor": "info",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Reset hasła – pojawia się błąd przy próbie resetowania oraz button „zaloguj” do usunięcia w tym miejscu",
+              "kolor": "info",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Umieszczenie etykietki rozmiar na produkcie",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Filtrowanie produktów po rozmiarze 37-48, s, m, ls, l, xl, xxl, xxxl",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Rejstracja - wybrane dane oznaczone jako obowiązkowe",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Nawigacja górna - sticky",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Moduł Poradniki, Nasze Usługi",
+              "kolor": "info",
+              "priorytet": "1",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Banner główny na szerokość strony",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Poziome menu kategorii na stronie głównej ",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Synchronizacja danych z systemem Hermes",
+              "kolor": "info",
+              "priorytet": "1",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "wyszukiwarka po wpisaniu np. 'but' i eneter wyskakują na kolejnych stronach inne produkty",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Po wybraniu kategorii i wpisu w poradnikach, a następnie próbie powrotu do kategorii pokazuje wszystkie wpisy z pozostałych kategorii ",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Formularz zamówienia - szczegóły zamówienia sticky i klawisz podsumowanie zamówienia na dół",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Wyszukiwarka nie podpowiada produktów",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Grupy produktów powiązanych",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "checkbox 'produkt aktywny', 'produkt główny' nie działa",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Edytowanie podkategorii produktów nie działą",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Ulubione - dodać opcję dodaj do koszyka",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Pasek dostępności oraz etykietki (rozmiar, nowość) na produktach powiązanych oraz widoku poziomym",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "wyszukiwanie poprzez filtry, problem z wyborem filtra",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Dodawanie do koszyka z poziomu powiązanych produktów nie działa",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Przy zapisie grupy ze statusem nieaktywna, a następnie aktywna powstają dwie takie same grupy - jedna aktywna, druga nie.",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Reklamacje - błąd podczas próby zapisania statusu",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Reklamacje - dodanie pola wyboru użytkownika i numeru dokumentu",
+              "kolor": "info",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Ręczne określenie kosztów dostawy",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Informacja o cookies",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Admin - możliwość akceptacji kosztów",
+              "kolor": "info",
+              "priorytet": "2",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Uwagi w zamówieniach są niewidoczne podczas wyświetlania złożonego zamówienia",
+              "kolor": "info",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "uzupełnić atrybut alt dla zdjęć",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Podłączenie płatności Tpay",
+              "kolor": "info",
+              "priorytet": "1",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Podłączenie API kuriera UPS",
+              "kolor": "info",
+              "priorytet": "1",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Dodawanie do koszyka, zablokować możliwość dodawania produktu gdy stan dojdzie do 0 – nieaktywny przycisk „koszyk” na produkcie lub „0” w ilości",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Ilość dostępnych wariantów produktów z danej grupy towarowej nie wyświetla się na produkcie głównym",
+              "kolor": "info",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Po wpisaniu zapytania w wyszukiwarkę blokuje ono wyszukiwanie produktów po kategoriach, wartość pola wyszukiwania powinna być przypisana tylko do 'lupki' wyszukiwarki lub automatycznie czyszczona po kliknięciu dowolnej innej ścieżki, tak aby nie blokować widoku innych produktów już  po wyszukaniu. Wyszukiwanie po wybraniu elementu z listy, bez przycisku szukaj.",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Zakup z karty produktu nie dodaje do koszyka",
+              "kolor": "info",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Sortowanie wyświetlanej listy produktów (powiązanych) po nazwie, nie po indeksie",
+              "kolor": "info",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Wyszukiwanie produktów również po tagach",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Koszt dostawy - mechanizm informacji o kosztach dostawy po złożeniu zamówienia - Twoje zamówienie oczekuje na obliczenie kosztu dostawy, zostaniesz o nim poinformowany w kolejnej wiadomości email",
+              "kolor": "info",
+              "priorytet": "1",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Zakupy bez logowania -  problem podczas akceptacji kosztów dostawy, otwiera się strona logowania. Prawdopodobnie aplikacja nie pamięta zamówienia",
+              "kolor": "info",
+              "priorytet": "1",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Możliwość dodawania i edycji produktów",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Koszyk - miejsce na kupon rabatowy",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Nasze usługi – problem z edytowaniem treści",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "'Poradniki' – brak możliwości dodania zdjęcia miniatury wpisu. ",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Przy próbie edytowania produktu aplikacja zawiesza się",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Generowanie listu przewozowego – błąd",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Kwota do darmowej wysyłki w widoku mobilnym",
+              "kolor": "info",
+              "priorytet": "3",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Do aktualizacji stanu magazynu i cen bierze wszystkie magazyny w hermesie MG1, MG2, MG3. Cenę zaciąga z MG1, a powinno z MG2, ilości towaru sumuje z wszystkich MG, a powinien z MG2 i MG3. MG1 nie powinien być podłączony.",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Synchronizacja zamówień z hermesem",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Możliwość logowania się na użytkownika w celu np. składania zamówień w jego imieniu lub rejestracji reklamacji",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Przypisywanie użytkowników do grup z przydzielonymi rolami i uprawnieniami",
+              "kolor": "info",
+              "priorytet": "5",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Synchronizacja dostępności produktów oraz cen z Hermesem wg zadanych kryteriów",
+              "kolor": "info",
+              "priorytet": "1",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

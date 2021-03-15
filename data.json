@@ -40,7 +40,7 @@
               "status": "left",
               "szczegóły": {
                 "tekst": "Czy musi zakładać kontrahenta i czy za każdym razem będzie zakładać nowego pomimo składania zamówień przez jedną osobę? Może kierować zamówienia na jednego kontrahenta np. okaziciel lub identyfikować klienta w hermesie po adresie email.",
-                "zdjęcie": "/img/hermes-lista-kontrahentow.JPG"
+                "zdjęcie": "../img/hermes-lista-kontrahentow.JPG"
               }
             }
           ]
@@ -325,7 +325,7 @@
               "status": "left",
               "szczegóły": {
                 "tekst": "Cena za trzy doby - w przypadku kiedy kończą się w sobotę - jest nieprawidłowa, dopiero 3 doby i 1 godzina pokazuje prawidłową.",
-                "zdjęcie": "/img/wypozyczalnia_sobota2.JPG"
+                "zdjęcie": "../img/wypozyczalnia_sobota2.JPG"
               }
             },
             {
@@ -370,7 +370,7 @@
               "status": "right",
               "szczegóły": {
                 "tekst": "Po wejściu w kategorię niech produkty od razu się wyświetlają bez konieczności kolejnego kliknięcia w 'Pokaż wszystkie z kategorii...'",
-                "zdjęcie": "/img/wyswietlanie-produktow-wypozyczalnia.JPG"
+                "zdjęcie": "../img/wyswietlanie-produktow-wypozyczalnia.JPG"
               }
             }
           ]
@@ -415,7 +415,7 @@
               "status": "left",
               "szczegóły": {
                 "tekst": "Klient B2B lub B2C ze standardowymi uprawnieniami nie powinien mieć mozliwości wyboru użytkownika tylko automatycznie pole powinno być uzupełniane jego danymi. Mozliwość wyboru klienta zgłaszającego reklamację powinny mieć tylko osoby uprawnione, które mogą się wcielić winnego użytkownika. ",
-                "zdjęcie": "/img/reklamacje-klient.JPG"
+                "zdjęcie": "../img/reklamacje-klient.JPG"
               }
             }
           ]
@@ -530,7 +530,7 @@
               "status": "left",
               "szczegóły": {
                 "tekst": "",
-                "zdjęcie": "/img/url-poradniki.JPG"
+                "zdjęcie": "../img/url-poradniki.JPG"
               }
             },
             {
@@ -565,7 +565,7 @@
               "status": "left",
               "szczegóły": {
                 "tekst": "‘Title’ i ‘description’ strony głównej usunąć na próbę lub ładować tym samym mechanizmem jak na podstronach produktów w celu sprawdzenia zachowania robota gogle – czy zacznie indeksować produkty zgodnie z ustawionymi parametrami. Nie działa (zał_4). Uzgodnione przerobienie początkowo strona główna, kart produktów oraz kategorii  na SSR.",
-                "zdjęcie": "/img/zał_4_seo_03.02.2020.JPG"
+                "zdjęcie": "../img/zał_4_seo_03.02.2020.JPG"
               }
             },
             {
@@ -575,7 +575,7 @@
               "status": "left",
               "szczegóły": {
                 "tekst": "Pomimo odczucia w miarę szybkiego działania strony wynik w teście google jest tragiczny, a ma to istotny wpływ na pozycjonowanie strony.",
-                "zdjęcie": "/img/page-speed.JPG"
+                "zdjęcie": "../img/page-speed.JPG"
               }
             },
             {
@@ -620,7 +620,7 @@
               "status": "left",
               "szczegóły": {
                 "tekst": "Wyświetlanie w blokach prawidłowo, ale po wejściu w produkt, na wszystkich wyświetla się 'nowość' ",
-                "zdjęcie": "/img/zał_5.JPG"
+                "zdjęcie": "../img/zał_5.JPG"
               }
             },
             {

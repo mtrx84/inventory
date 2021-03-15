@@ -49,12 +49,12 @@
           "tytuł": "Proces Sprzedażowy",
           "opis": [
             {
-              "działanie": "Zakupy ratalny - do sprawdzenia metoda TPay, czy inna metoda wyświetla taką opcję.",
+              "działanie": "Zakup ratalny - do sprawdzenia metoda TPay, czy inna metoda wyświetla taką opcję.",
               "kolor": "primary",
               "priorytet": "4",
               "status": "right",
               "szczegóły": {
-                "tekst": "",
+                "tekst": "Aplikacja po przejściu na płatności Tpay nie pokazuje możliwości zakupu ratalnego (chyba Alior) pomimo, że Tpay taką udostępnia.",
                 "zdjęcie": ""
               }
             },
@@ -105,13 +105,13 @@
               "status": "right",
               "szczegóły": {
                 "tekst": "Uruchomić możliwość ręcznej zmiany statusów zamówienia oraz wskazać, w którym momencie zamówienie zostaje wysłane do Hermesa.",
-                "zdjęcie": ""
+                "zdjęcie": "./statusy.JPG"
               }
             },
             {
-              "działanie": "Numer telefonu oznaczyć polem wymaganym podczas zakupów bez logowania",
-              "kolor": "warning",
-              "priorytet": 2,
+              "działanie": "Numer telefonu oznaczyć polem wymaganym podczas zakupów bez logowania - do zastanowienia",
+              "kolor": "success",
+              "priorytet": 3,
               "status": "left",
               "szczegóły": {
                 "tekst": "",
@@ -124,7 +124,7 @@
               "priorytet": 2,
               "status": "left",
               "szczegóły": {
-                "tekst": "Na szczegółach zamówienia w aplikacji nie są pokazane dane do faktury",
+                "tekst": "Na szczegółach zamówienia w aplikacji nie są widoczne dane do faktury, a klient musiał wypełniać formularz bo w hermesie założył się klient z innymi danymi.",
                 "zdjęcie": "./img/zał1_karta.JPG"
               }
             },
@@ -164,7 +164,7 @@
           "tytuł": "Raporty sprzedażowe",
           "opis": [
             {
-              "działanie": "Do przygotowania",
+              "działanie": "Do przygotowania zestawienie przydatnych statystyk",
               "kolor": "primary",
               "priorytet": "4",
               "status": "right",
@@ -254,7 +254,17 @@
               "priorytet": 4,
               "status": "right",
               "szczegóły": {
-                "tekst": "W wersji produkcyjnej możiwość na całe Stalco.",
+                "tekst": "W wersji produkcyjnej możiwość na markę Stalco oraz Perfect (być może po zmianie Id Marki w słowniku również inne)",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Przypomnienia o nadchodzących płatnościach dla zbliżających się faktur",
+              "kolor": "warning",
+              "priorytet": 2,
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Wysyłanie trzech wiadomości - email w przpdaku aplikacji webowej lub trzech powiadomień w aplikacji mobilnej - do klienta  na określoną ilość dni przed wymaganym terminem np. -5, w dniu lub dzień po terminie np. 0 lub 1 i na określoną ilość dni po terminie np. 5.",
                 "zdjęcie": ""
               }
             }
@@ -264,7 +274,7 @@
           "tytuł": "Raporty sprzedażowe",
           "opis": [
             {
-              "działanie": "Do przygotowania",
+              "działanie": "Do przygotowania zestawienie przydatnych statystyk",
               "kolor": "primary",
               "priorytet": "4",
               "status": "right",
@@ -280,11 +290,11 @@
           "opis": [
             {
               "działanie": "Obliczanie bonusu klienta na postawie zadanych warunków",
-              "kolor": "primary",
-              "priorytet": "4",
+              "kolor": "success",
+              "priorytet": "3",
               "status": "right",
               "szczegóły": {
-                "tekst": "",
+                "tekst": "Dla wybranych towarów, na podobnej zasadzie jak w przypadku grup rabatowych, wg określonych warunków terminowości rozliczeń oraz założonej wielkości obrotu wyliczyć procentową kwotę bonusu. Przykład: Rabaty - Producent Stalco : 30%, Bonusy - Producent Stalco - Bonus 2%. Do przygotowania jest również mechanizm rozliczenia bonusu (zerowania).",
                 "zdjęcie": ""
               }
             }
@@ -299,12 +309,82 @@
           "tytuł": "Do weryfikacji",
           "opis": [
             {
-              "działanie": "",
-              "kolor": "",
-              "priorytet": "",
+              "działanie": "Zdjęcia nie mieszczą się w miniaturze",
+              "kolor": "primary",
+              "priorytet": "4",
               "status": "",
               "szczegóły": {
                 "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Odbiór w placówce wyświetla dane klienta zamiast miejsca odbioru",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Nie widać paska dostępności produktów naminiaturach ani na produktach, jest tylko stan produktu",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Po wejściu w produkty poprzez kategorie nie można się cofnąć do ktegorii",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Po wejściu w sklep bestsellery i nowości nie wiem skąd są zaciągane? Na wyprzedaży kręci się spinner w kółko.",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Fitrowanie produktów nie działa",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Haotyczne sortowanie produktów",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
+              "działanie": "Wyszukiwarka po znalezieniu produktu powinna zamknąć się automatycznie... ",
+              "kolor": "primary",
+              "priorytet": "4",
+              "status": "",
+              "szczegóły": {
+                "tekst": "W przeciwnym wypadku poinformować, że towar nie został znaleziony. Pytanie też czy towar ma szukać tylko w wybranej kategrorii, tak widziałem jest teraz, a raczej powinna w całym asortymencie. Najlepiej zastosować mechanizm z aplikacji webowej, tam jest już w miarę dopracowny",
                 "zdjęcie": ""
               }
             }
@@ -524,7 +604,7 @@
           "tytuł": "PORADNIKI, NASZE USŁUGI",
           "opis": [
             {
-              "działanie": "Prawidłowe ścieżki bloków statycznych",
+              "działanie": "Prawidłowe adresy URL bloków statycznych",
               "kolor": "danger",
               "priorytet": "1",
               "status": "left",

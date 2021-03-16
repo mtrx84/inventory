@@ -714,6 +714,16 @@
           "tytuł": "FRONT",
           "opis": [
             {
+              "działanie": "Automatyczna kompresja zdjęć",
+              "kolor": "success",
+              "priorytet": "3",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "",
+                "zdjęcie": ""
+              }
+            },
+            {
               "działanie": "Widok mobilny - dodać odnośnik do produktów",
               "kolor": "success",
               "priorytet": "3",

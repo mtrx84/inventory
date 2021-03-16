@@ -15,6 +15,7 @@
               "działanie": "",
               "kolor": "klkl",
               "priorytet": "",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -37,6 +38,7 @@
               "działanie": "Zamówienie bez rejestracji za każdym razem tworzy nowego kontrahenta",
               "kolor": "warning",
               "priorytet": "2",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "Czy musi zakładać kontrahenta i czy za każdym razem będzie zakładać nowego pomimo składania zamówień przez jedną osobę? Może kierować zamówienia na jednego kontrahenta np. okaziciel lub identyfikować klienta w hermesie po adresie email.",
@@ -52,6 +54,7 @@
               "działanie": "Zakup ratalny - do sprawdzenia metoda TPay, czy inna metoda wyświetla taką opcję.",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Aplikacja po przejściu na płatności Tpay nie pokazuje możliwości zakupu ratalnego (chyba Alior) pomimo, że Tpay taką udostępnia.",
@@ -62,6 +65,7 @@
               "działanie": "Dodać zakładkę na produkcie – klienci, którzy kupili ten produkt kupili również...",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "",
@@ -72,6 +76,7 @@
               "działanie": "Implementacja dostaw do paczkomatów Inpost",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "",
@@ -82,6 +87,7 @@
               "działanie": "Implementacja płatności LeaseLink",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "",
@@ -92,6 +98,7 @@
               "działanie": "Jednostki miary - 100szt, m, mb, m2",
               "kolor": "warning",
               "priorytet": "2",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "W tej chwili możemy dodawać tylko liczby naturalne, a klient może zechcieć zakupić np. 0,5/m lub 0,15/100szt. Jeżeli produkt posiada j.m. 100szt, m, mb, m2 to powinna być możliwość dodawania ilości ułamkowych",
@@ -102,6 +109,7 @@
               "działanie": "Zmiana statusów zamówienia",
               "kolor": "danger",
               "priorytet": "1",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Uruchomić możliwość ręcznej zmiany statusów zamówienia oraz wskazać, w którym momencie zamówienie zostaje wysłane do Hermesa.",
@@ -112,6 +120,7 @@
               "działanie": "Numer telefonu oznaczyć polem wymaganym podczas zakupów bez logowania - do zastanowienia",
               "kolor": "success",
               "priorytet": 3,
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "",
@@ -122,6 +131,7 @@
               "działanie": "Szczegóły zamówienia w aplikacji",
               "kolor": "warning",
               "priorytet": 2,
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "Na szczegółach zamówienia w aplikacji nie są widoczne dane do faktury, a klient musiał wypełniać formularz bo w hermesie założył się klient z innymi danymi.",
@@ -132,6 +142,7 @@
               "działanie": "Dane do faktury",
               "kolor": "warning",
               "priorytet": 2,
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "Chekbox - może ustawić go na środku i po jednej stronie niech będzie tekst 'osoba prywatna, a po drugiej 'firma'. Również 'firma' powinna być ustawiona jak wybór domyślny. Klient zamawiał na fakturę, nie widział opcji na firmę więc wypełnił dane na osobę prywatną.",
@@ -142,6 +153,7 @@
               "działanie": "Połączenie karty rabatowej z kontem klienta",
               "kolor": "success",
               "priorytet": 3,
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "",
@@ -152,6 +164,7 @@
               "działanie": "Zakupy z użyciem kuponów rabatowych",
               "kolor": "success",
               "priorytet": 3,
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "",
@@ -167,6 +180,7 @@
               "działanie": "Do przygotowania zestawienie przydatnych statystyk",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "",
@@ -187,6 +201,7 @@
               "działanie": "Rejestracja klientów B2B + połączenie z kontrahentem w Hermesie po weryfikacji",
               "kolor": "danger",
               "priorytet": 1,
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "",
@@ -202,6 +217,7 @@
               "działanie": "System rabatowy",
               "kolor": "danger",
               "priorytet": "1",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "https://mtrx84.github.io/discoutns/ Uwaga! Przykład nie uwzględnia przydzielania rabatów na pojedyncze produkty, który również powinien być wdrożony",
@@ -212,6 +228,7 @@
               "działanie": "Koszyk zakupów",
               "kolor": "success",
               "priorytet": "3",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Możliwość dodawania produktów do 3 koszyków dla klientów hurtowych",
@@ -222,6 +239,7 @@
               "działanie": "historia dokonanych transakcji",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "up",
               "szczegóły": {
                 "tekst": "Dokumenty sprzedażowe do weryfikacji",
@@ -232,6 +250,7 @@
               "działanie": "Dostęp do rozliczeń i przypomnienia o płatnościach",
               "kolor": "success",
               "priorytet": "3",
+              "data": "",
               "status": "up",
               "szczegóły": {
                 "tekst": "Do weryfikacji po synchronizacji kontrahentów aplikacja-hermes",
@@ -242,6 +261,7 @@
               "działanie": "Oferty i promocje widoczne tylko dla klientów B2B",
               "kolor": "primary",
               "priorytet": 4,
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "W blokach statycznych ustawić checkbox, który po przełączeniu pkaże je tylko kontom B2B. Standardowe położenie udostępnia wybrany blok wszystkim użytkownikom",
@@ -252,6 +272,7 @@
               "działanie": "Zakupy z użyciem kodów rabatowych",
               "kolor": "primary",
               "priorytet": 4,
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "W wersji produkcyjnej możiwość na markę Stalco oraz Perfect (być może po zmianie Id Marki w słowniku również inne)",
@@ -262,6 +283,7 @@
               "działanie": "Przypomnienia o nadchodzących płatnościach dla zbliżających się faktur",
               "kolor": "warning",
               "priorytet": 2,
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Wysyłanie trzech wiadomości - email w przpdaku aplikacji webowej lub trzech powiadomień w aplikacji mobilnej - do klienta  na określoną ilość dni przed wymaganym terminem np. -5, w dniu lub dzień po terminie np. 0 lub 1 i na określoną ilość dni po terminie np. 5.",
@@ -277,6 +299,7 @@
               "działanie": "Do przygotowania zestawienie przydatnych statystyk",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "",
@@ -292,6 +315,7 @@
               "działanie": "Obliczanie bonusu klienta na postawie zadanych warunków",
               "kolor": "success",
               "priorytet": "3",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Dla wybranych towarów, na podobnej zasadzie jak w przypadku grup rabatowych, wg określonych warunków terminowości rozliczeń oraz założonej wielkości obrotu wyliczyć procentową kwotę bonusu. Przykład: Rabaty - Producent Stalco : 30%, Bonusy - Producent Stalco - Bonus 2%. Do przygotowania jest również mechanizm rozliczenia bonusu (zerowania). Należy również uwzględnić wyłączenie części produktów lub kategorii z wyliczenia bonusu",
@@ -312,6 +336,7 @@
               "działanie": "Proces marketingowy (specjalne oferty czasowe, kupony wysyłane jako powiadomienia, karta rabatowa)",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -322,6 +347,7 @@
               "działanie": "Proces sprzedażowy (możliwość skladania zamówień B2C, B2B, Wypożyczalnia, przesyłanie zamówień do hermesa) ",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -332,6 +358,7 @@
               "działanie": "Proces informacyjny (powiadomienia, rozliczenia)",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -342,6 +369,7 @@
               "działanie": "Zdjęcia nie mieszczą się w miniaturze",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -352,6 +380,7 @@
               "działanie": "Odbiór w placówce wyświetla dane klienta zamiast miejsca odbioru",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -362,6 +391,7 @@
               "działanie": "Dostawy z podaną opłatą",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -372,6 +402,7 @@
               "działanie": "Nie widać paska dostępności produktów naminiaturach ani na produktach, jest tylko stan produktu",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -382,6 +413,7 @@
               "działanie": "Po wejściu w produkty poprzez kategorie nie można się cofnąć do ktegorii",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -392,6 +424,7 @@
               "działanie": "Po wejściu w sklep bestsellery i nowości nie wiem skąd są zaciągane? Na wyprzedaży kręci się spinner w kółko.",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -402,6 +435,7 @@
               "działanie": "Fitrowanie produktów nie działa",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -412,6 +446,7 @@
               "działanie": "Wyszukiwarka po znalezieniu produktu powinna zamknąć się automatycznie. W przeciwnym wypadku poinformować, że towar nie został znaleziony. Wyszukiwanie nie powinno się też odbywać tylko w wybranej kategrorii, a raczej tak jak na stronie głównej w całym asortymencie.",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "",
@@ -422,6 +457,7 @@
               "działanie": "chaotyczne sortowanie produktów",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -442,6 +478,7 @@
               "działanie": "Błąd - 3 dni, dzień zwortu sobota",
               "kolor": "danger",
               "priorytet": "1",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "Cena za trzy doby - w przypadku kiedy kończą się w sobotę - jest nieprawidłowa, dopiero 3 doby i 1 godzina pokazuje prawidłową.",
@@ -452,6 +489,7 @@
               "działanie": "Godziny wypożyczeń, umożliwić wybór co pół godziny",
               "kolor": "danger",
               "priorytet": 1,
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "W tej chwili zaokrąglenie godziny w górę następuje już po kwadransie bieżącej godziny",
@@ -467,6 +505,7 @@
               "działanie": "Podsumowanie kwoty za wypożyczenie",
               "kolor": "warning",
               "priorytet": 2,
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "Podsumowanie (kwota za jedną dobę) pojawia się po wybraniu daty wypożyczenia, a powinno po zwrocie",
@@ -477,6 +516,7 @@
               "działanie": "Informacja o kaucji",
               "kolor": "success",
               "priorytet": "3",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Na kartotece produktu obok kwoty za wypożyczenia  (podsumowanie) – wstawić tekst ‘Kaucja za wypożyczenie urządzenia WARTOŚĆ  zł’ , gdzie WARTOŚĆ będzie zaciągana z danych technicznych po ustawieniu parametru „Kaucja”, w przeciwnym razie 0.",
@@ -487,6 +527,7 @@
               "działanie": "Wyświetlanie produktów",
               "kolor": "success",
               "priorytet": "3",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Po wejściu w kategorię niech produkty od razu się wyświetlają bez konieczności kolejnego kliknięcia w 'Pokaż wszystkie z kategorii...'",
@@ -502,6 +543,7 @@
               "działanie": "Automatyczne uzupełnianie formularza.",
               "kolor": "danger",
               "priorytet": "1",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "https://drive.google.com/file/d/1z_oCU55v-N0SxP9MGVE7Cx_nH1PJp4sT/view?usp=sharing",
@@ -512,6 +554,7 @@
               "działanie": "Uruchomić i przetestować ",
               "kolor": "danger",
               "priorytet": "1",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "",
@@ -532,6 +575,7 @@
               "działanie": "",
               "kolor": "danger",
               "priorytet": "1",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "Klient B2B lub B2C ze standardowymi uprawnieniami nie powinien mieć mozliwości wyboru użytkownika tylko automatycznie pole powinno być uzupełniane jego danymi. Mozliwość wyboru klienta zgłaszającego reklamację powinny mieć tylko osoby uprawnione, które mogą się wcielić winnego użytkownika. ",
@@ -547,6 +591,7 @@
               "działanie": "",
               "kolor": "danger",
               "priorytet": "1",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "",
@@ -567,6 +612,7 @@
               "działanie": "Edycja produktu - dostępność",
               "kolor": "success",
               "priorytet": "3",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Do tabeli produktów podczas edycji dodać kolumnę dotępność z podaną ilością - pomoże to nam edytować właściwe produkty o tych samych indeksach",
@@ -577,6 +623,7 @@
               "działanie": "Edycja produktu",
               "kolor": "warning",
               "priorytet": "2",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "Jeśli produkt do edycji wybraliśmy z np. 3 podstrony to po zapisaniu edytowanego produktu widok wraca do pierwszej strony listy produktów, co wydłuża pracę, jeśli chcemy edytować kolejny produkt z podstrony 3. Po zapisaniu widok powinien powrócić do wybranej podstrony",
@@ -587,6 +634,7 @@
               "działanie": "URL Zdjęcia produktu",
               "kolor": "warning",
               "priorytet": "2",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Automatyczna zamiana znaków niedozwolonych w ścieżce zdjęcia podczas zapisywania. W tej chiwili, żeby dodać zdjęcie produktu, który w indeksie posiada np. '/', musimy zmieniać indeks produktu.",
@@ -602,6 +650,7 @@
               "działanie": "Powiadomienie o dostępności",
               "kolor": "success",
               "priorytet": "3",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "Brak wysyłania wiadomości po uzupełnieniu stanu produktu.",
@@ -612,6 +661,7 @@
               "działanie": "Opinie produktów zakupionych przez klientów",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "",
@@ -622,6 +672,7 @@
               "działanie": "Implementacja komunikatora Fb na stronie",
               "kolor": "primary",
               "priorytet": "4",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "",
@@ -632,6 +683,7 @@
               "działanie": "Płatność za pobraniem - koszty",
               "kolor": "success",
               "priorytet": "3",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "Przy ustalaniu kosztów transportu po stronie admina, koszty przesyłki za pobraniem jak i bez są takie same.",
@@ -647,6 +699,7 @@
               "działanie": "Prawidłowe adresy URL bloków statycznych",
               "kolor": "danger",
               "priorytet": "1",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "",
@@ -657,6 +710,7 @@
               "działanie": "Dodawanie plików pdf do repozytorium",
               "kolor": "danger",
               "priorytet": 1,
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "W tej chwili korzystamy z dysku google, jeśli chcemy dodać plik na stronę",
@@ -667,6 +721,7 @@
               "działanie": "Nie wyświetlają się zdjęcia w iphone'ach (a przynajmniej w 6) ",
               "kolor": "danger",
               "priorytet": "1",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "",
@@ -682,6 +737,7 @@
               "działanie": "Nieprawidłowe wyświetlanie meta znaczników oraz title",
               "kolor": "danger",
               "priorytet": "1",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "‘Title’ i ‘description’ strony głównej usunąć na próbę lub ładować tym samym mechanizmem jak na podstronach produktów w celu sprawdzenia zachowania robota gogle – czy zacznie indeksować produkty zgodnie z ustawionymi parametrami. Nie działa (zał_4). Uzgodnione przerobienie początkowo strona główna, kart produktów oraz kategorii  na SSR.",
@@ -692,6 +748,7 @@
               "działanie": "PageSpeed Insights",
               "kolor": "warning",
               "priorytet": "2",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "Pomimo odczucia w miarę szybkiego działania strony wynik w teście google jest tragiczny, a ma to istotny wpływ na pozycjonowanie strony.",
@@ -702,6 +759,7 @@
               "działanie": "Automatyczna aktualizacja pliku sitemap.xml",
               "kolor": "warning",
               "priorytet": "2",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "",
@@ -714,9 +772,21 @@
           "tytuł": "FRONT",
           "opis": [
             {
+              "działanie": "Produkt S-47403",
+              "kolor": "danger",
+              "priorytet": "1",
+              "data": "2021-03-16",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Omówić i pokazać w hermesie",
+                "zdjęcie": ""
+              }
+            },
+            {
               "działanie": "Automatyczna kompresja zdjęć",
               "kolor": "success",
               "priorytet": "3",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "",
@@ -724,9 +794,21 @@
               }
             },
             {
+              "działanie": "Produkt główny i zwykły",
+              "kolor": "warning",
+              "priorytet": "2",
+              "data": "2021-03-16",
+              "status": "right",
+              "szczegóły": {
+                "tekst": "Wyświetlają się wszystkie produkty w kategoriach, główne i zwykłe",
+                "zdjęcie": ""
+              }
+            },
+            {
               "działanie": "Widok mobilny - dodać odnośnik do produktów",
               "kolor": "success",
               "priorytet": "3",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Dodać możliwość bezpośredniego przejścia z menu hamburger do ofert lub widok kategorii -lupka(widok mobilny).",
@@ -737,6 +819,7 @@
               "działanie": "Widok mobilny - wybór kategorii",
               "kolor": "warning",
               "priorytet": "2",
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Nie można wyświetlić produktów, jeśli są przyporządkowane tylko do głównej kategorii np. elektronarzędzia i jednej podkategorii np. akcesroia dodatkowe. W takim przypadku kliknięcie w akcesoria dodatkowe powinno przenieść nas do produktów z tej kategorii",
@@ -747,6 +830,7 @@
               "działanie": "Bestsellery, Nowości, Już dostępne - wyświetlanie",
               "kolor": "warning",
               "priorytet": "2",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "Wyświetlanie w blokach prawidłowo, ale po wejściu w produkt, na wszystkich wyświetla się 'nowość' ",
@@ -754,9 +838,21 @@
               }
             },
             {
+              "działanie": "Bestsellery, Nowości, Już dostępne",
+              "kolor": "warning",
+              "priorytet": "2",
+              "data": "2021-03-16",
+              "status": "left",
+              "szczegóły": {
+                "tekst": "Półbut Tomas S-51500 ustawiony jako Nowość nie wyświeta się, podobnie tarcza S-71657 ustawiona jako bestseller również nie wyświetla się w Bestseller",
+                "zdjęcie": ""
+              }
+            },
+            {
               "działanie": "Banner na stronie głównej",
               "kolor": "danger",
               "priorytet": "1",
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "Baner na stronie głównej wyświetla zdjęcia wg starej kolejności, a było już dobrze zrobione - ostatnio dodany wyświetał się jako pierwszy.",
@@ -767,6 +863,7 @@
               "działanie": "Belki statyczne do edycji",
               "kolor": "danger",
               "priorytet": 1,
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Belki statyczne na szerokość 100% kontenera, miejsce: pod 'wypożyczalnia|nasze usługi|poradniki|ofert' oraz pod polecanymi kategoriami",
@@ -777,6 +874,7 @@
               "działanie": "Bootstrap oraz dostęp do css",
               "kolor": "success",
               "priorytet": 3,
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Nie wszystkie narzędzia bootstrapa działają poprawnie podczas użycia w blokach statycznych, dlaczego? ",
@@ -787,6 +885,7 @@
               "działanie": "Bestsellery, Nowości, Już dostępne - wyświetlanie etykietek",
               "kolor": "warning",
               "priorytet": 1,
+              "data": "",
               "status": "left",
               "szczegóły": {
                 "tekst": "",
@@ -797,6 +896,7 @@
               "działanie": "Bestsellery, Nowości, Już dostępne - mechanizm działania",
               "kolor": "success",
               "priorytet": 3,
+              "data": "",
               "status": "right",
               "szczegóły": {
                 "tekst": "Zautomatyzowany mechanizm działania bloków: 'Bestsellery' - na podstawie analizy sprzedaży wartościowej lub ilościowej zadanego okresu czasu produkty najlepiej sprzedające się. 'Nowości' - wyświetlane produkty ostatnio edytowane. 'Już dostępne' - wyświetlane produkty, których zyskały dostępność, czyli produkty, które przed synchronizacją miały stan 0, a po synchronizacji stan > 0  ",
@@ -817,6 +917,7 @@
               "działanie": "Bloki statyczne w stopce Strefa klienta, Zakupy, O firmie, Newsletter  ",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -827,6 +928,7 @@
               "działanie": "Możliwość zakupu bez logowania",
               "kolor": "info",
               "priorytet": "1",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -837,6 +939,7 @@
               "działanie": "Dostawy - możliwość wyboru punktu odbioru",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -847,6 +950,7 @@
               "działanie": "Darmowa dostawa po przekroczeniu zadanego limitu kwoty zamowienia",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -857,6 +961,7 @@
               "działanie": "Tworzenie grup rabatowych",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -867,6 +972,7 @@
               "działanie": "Przesuwanie kolejności kategorii",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -877,6 +983,7 @@
               "działanie": "Pasek dostępności produktów",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -887,6 +994,7 @@
               "działanie": "Czyszczenie inputa ilości produktów po kliknięciu w niego",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -897,6 +1005,7 @@
               "działanie": "Poziomy widok produktów",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -907,6 +1016,7 @@
               "działanie": "Oznaczenie produktów nowość, bestseller, już dostępne",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -917,6 +1027,7 @@
               "działanie": "Blok - polecane kategorie",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -927,6 +1038,7 @@
               "działanie": "Zablokowanie płatności gotówką podczas wyboru dostawy spedycją",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -937,6 +1049,7 @@
               "działanie": "Dodaj do ulubionych w widoku produktów powiązancyh",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -947,6 +1060,7 @@
               "działanie": "Zakupy bez logowania - nie koryguje ilości wybranej produktu do dostepnej, na koszyku dodaje kolejną liczbę produktu, a nie sumuje.",
               "kolor": "info",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -957,6 +1071,7 @@
               "działanie": "Na widoku mobilnym problem z przesuwaniem palcem po zdjeciach i nie wczytuje produktu klikajac w zdjecie",
               "kolor": "info",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -967,6 +1082,7 @@
               "działanie": "Dodawanie producenta i marki produktów ",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -977,6 +1093,7 @@
               "działanie": "Wyszukiwarka w menu przy małej rozdzielczości (hamburger) - nie działa wyszukiwanie produktów",
               "kolor": "info",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -987,6 +1104,7 @@
               "działanie": "Reset hasła – pojawia się błąd przy próbie resetowania oraz button „zaloguj” do usunięcia w tym miejscu",
               "kolor": "info",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -997,6 +1115,7 @@
               "działanie": "Umieszczenie etykietki rozmiar na produkcie",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1007,6 +1126,7 @@
               "działanie": "Filtrowanie produktów po rozmiarze 37-48, s, m, ls, l, xl, xxl, xxxl",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1017,6 +1137,7 @@
               "działanie": "Rejstracja - wybrane dane oznaczone jako obowiązkowe",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1027,6 +1148,7 @@
               "działanie": "Nawigacja górna - sticky",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1037,6 +1159,7 @@
               "działanie": "Moduł Poradniki, Nasze Usługi",
               "kolor": "info",
               "priorytet": "1",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1047,6 +1170,7 @@
               "działanie": "Banner główny na szerokość strony",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1057,6 +1181,7 @@
               "działanie": "Poziome menu kategorii na stronie głównej ",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1067,6 +1192,7 @@
               "działanie": "Synchronizacja danych z systemem Hermes",
               "kolor": "info",
               "priorytet": "1",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1077,6 +1203,7 @@
               "działanie": "wyszukiwarka po wpisaniu np. 'but' i eneter wyskakują na kolejnych stronach inne produkty",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1087,6 +1214,7 @@
               "działanie": "Po wybraniu kategorii i wpisu w poradnikach, a następnie próbie powrotu do kategorii pokazuje wszystkie wpisy z pozostałych kategorii ",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1097,6 +1225,7 @@
               "działanie": "Formularz zamówienia - szczegóły zamówienia sticky i klawisz podsumowanie zamówienia na dół",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1107,6 +1236,7 @@
               "działanie": "Wyszukiwarka nie podpowiada produktów",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1117,6 +1247,7 @@
               "działanie": "Grupy produktów powiązanych",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1127,6 +1258,7 @@
               "działanie": "checkbox 'produkt aktywny', 'produkt główny' nie działa",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1137,6 +1269,7 @@
               "działanie": "Edytowanie podkategorii produktów nie działą",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1147,6 +1280,7 @@
               "działanie": "Ulubione - dodać opcję dodaj do koszyka",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1157,6 +1291,7 @@
               "działanie": "Pasek dostępności oraz etykietki (rozmiar, nowość) na produktach powiązanych oraz widoku poziomym",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1167,6 +1302,7 @@
               "działanie": "wyszukiwanie poprzez filtry, problem z wyborem filtra",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1177,6 +1313,7 @@
               "działanie": "Dodawanie do koszyka z poziomu powiązanych produktów nie działa",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1187,6 +1324,7 @@
               "działanie": "Przy zapisie grupy ze statusem nieaktywna, a następnie aktywna powstają dwie takie same grupy - jedna aktywna, druga nie.",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1197,6 +1335,7 @@
               "działanie": "Reklamacje - błąd podczas próby zapisania statusu",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1207,6 +1346,7 @@
               "działanie": "Reklamacje - dodanie pola wyboru użytkownika i numeru dokumentu",
               "kolor": "info",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1217,6 +1357,7 @@
               "działanie": "Ręczne określenie kosztów dostawy",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1227,6 +1368,7 @@
               "działanie": "Informacja o cookies",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1237,6 +1379,7 @@
               "działanie": "Admin - możliwość akceptacji kosztów",
               "kolor": "info",
               "priorytet": "2",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1247,6 +1390,7 @@
               "działanie": "Uwagi w zamówieniach są niewidoczne podczas wyświetlania złożonego zamówienia",
               "kolor": "info",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1257,6 +1401,7 @@
               "działanie": "uzupełnić atrybut alt dla zdjęć",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1267,6 +1412,7 @@
               "działanie": "Podłączenie płatności Tpay",
               "kolor": "info",
               "priorytet": "1",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1277,6 +1423,7 @@
               "działanie": "Podłączenie API kuriera UPS",
               "kolor": "info",
               "priorytet": "1",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1287,6 +1434,7 @@
               "działanie": "Dodawanie do koszyka, zablokować możliwość dodawania produktu gdy stan dojdzie do 0 – nieaktywny przycisk „koszyk” na produkcie lub „0” w ilości",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1297,6 +1445,7 @@
               "działanie": "Ilość dostępnych wariantów produktów z danej grupy towarowej nie wyświetla się na produkcie głównym",
               "kolor": "info",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1307,6 +1456,7 @@
               "działanie": "Po wpisaniu zapytania w wyszukiwarkę blokuje ono wyszukiwanie produktów po kategoriach, wartość pola wyszukiwania powinna być przypisana tylko do 'lupki' wyszukiwarki lub automatycznie czyszczona po kliknięciu dowolnej innej ścieżki, tak aby nie blokować widoku innych produktów już  po wyszukaniu. Wyszukiwanie po wybraniu elementu z listy, bez przycisku szukaj.",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1317,6 +1467,7 @@
               "działanie": "Zakup z karty produktu nie dodaje do koszyka",
               "kolor": "info",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1327,6 +1478,7 @@
               "działanie": "Sortowanie wyświetlanej listy produktów (powiązanych) po nazwie, nie po indeksie",
               "kolor": "info",
               "priorytet": "4",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1337,6 +1489,7 @@
               "działanie": "Wyszukiwanie produktów również po tagach",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1347,6 +1500,7 @@
               "działanie": "Koszt dostawy - mechanizm informacji o kosztach dostawy po złożeniu zamówienia - Twoje zamówienie oczekuje na obliczenie kosztu dostawy, zostaniesz o nim poinformowany w kolejnej wiadomości email",
               "kolor": "info",
               "priorytet": "1",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1357,6 +1511,7 @@
               "działanie": "Zakupy bez logowania -  problem podczas akceptacji kosztów dostawy, otwiera się strona logowania. Prawdopodobnie aplikacja nie pamięta zamówienia",
               "kolor": "info",
               "priorytet": "1",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1367,6 +1522,7 @@
               "działanie": "Możliwość dodawania i edycji produktów",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1377,6 +1533,7 @@
               "działanie": "Koszyk - miejsce na kupon rabatowy",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1387,6 +1544,7 @@
               "działanie": "Nasze usługi – problem z edytowaniem treści",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1397,6 +1555,7 @@
               "działanie": "'Poradniki' – brak możliwości dodania zdjęcia miniatury wpisu. ",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1407,6 +1566,7 @@
               "działanie": "Przy próbie edytowania produktu aplikacja zawiesza się",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1417,6 +1577,7 @@
               "działanie": "Generowanie listu przewozowego – błąd",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1427,6 +1588,7 @@
               "działanie": "Kwota do darmowej wysyłki w widoku mobilnym",
               "kolor": "info",
               "priorytet": "3",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1437,6 +1599,7 @@
               "działanie": "Do aktualizacji stanu magazynu i cen bierze wszystkie magazyny w hermesie MG1, MG2, MG3. Cenę zaciąga z MG1, a powinno z MG2, ilości towaru sumuje z wszystkich MG, a powinien z MG2 i MG3. MG1 nie powinien być podłączony.",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1447,6 +1610,7 @@
               "działanie": "Synchronizacja zamówień z hermesem",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1457,6 +1621,7 @@
               "działanie": "Możliwość logowania się na użytkownika w celu np. składania zamówień w jego imieniu lub rejestracji reklamacji",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1467,6 +1632,7 @@
               "działanie": "Przypisywanie użytkowników do grup z przydzielonymi rolami i uprawnieniami",
               "kolor": "info",
               "priorytet": "5",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",
@@ -1477,6 +1643,7 @@
               "działanie": "Synchronizacja dostępności produktów oraz cen z Hermesem wg zadanych kryteriów",
               "kolor": "info",
               "priorytet": "1",
+              "data": "",
               "status": "",
               "szczegóły": {
                 "tekst": "",

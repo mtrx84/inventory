@@ -2,17 +2,18 @@ const showEl = document.getElementById('show');
 const delSuccessEl = document.getElementById('deleteSuccess');
 let tasksArr = []
 
-function createTask(moduleName, taskTitle, action, color, priority, status, text, image, taskId) {
+function createTask(moduleName, taskTitle, action, color, priority, status, text, image, taskId, data) {
   // console.log(moduleName, taskTitle, action, color, priority, status, text, image)
 
   class Task {
 
-    constructor(moduleName, taskTitle, action, color, priority, status, text, image, taskId) {
+    constructor(moduleName, taskTitle, action, color, priority, status, text, image, taskId, data) {
       this.moduleName = moduleName;
       this.taskTitle = taskTitle;
       this.action = action;
       this.color = color;
       this.priority = priority;
+      this.data = data;
       this.status = status;
       this.text = text;
       this.image = image;
@@ -22,7 +23,7 @@ function createTask(moduleName, taskTitle, action, color, priority, status, text
 
 
   }
-  const task = new Task(moduleName, taskTitle, action, color, priority, status, text, image, taskId);
+  const task = new Task(moduleName, taskTitle, action, color, priority, status, text, image, taskId, data);
   tasksArr.push(task)
 }
 
@@ -65,6 +66,7 @@ async function getData() {
         const color = taskDesc[h].kolor
         const priority = taskDesc[h].priorytet
         const status = taskDesc[h].status
+        const data = taskDesc[h].data
         const text = taskDesc[h].szczegóły.tekst
         const image = taskDesc[h].szczegóły.zdjęcie
         const taskId = `${moduleName}-${j}-${h}`
@@ -79,6 +81,7 @@ async function getData() {
             <div class='col-md-3  mb-1'>
               <span class='mx-1  btn  bg-${color} text-${color}  '>${priority}  </span>
               <button id=${taskId} class='mx-1 btn btn-secondary details' value = ${taskId} onclick = "showText(value)" >Więcej...</button> 
+              <span>${data} </span>
             </div>
           </li>`
           // document.getElementById(`${moduleName}${j}`).appendChild(btn)
@@ -95,7 +98,7 @@ async function getData() {
         </li>`
         }
 
-        createTask(moduleName, taskTitle, action, color, priority, status, text, image, taskId)
+        createTask(moduleName, taskTitle, action, color, priority, status, text, image, taskId, data)
       }
     }
   }
@@ -153,6 +156,6 @@ function closeInfoText() {
 // x.addEventListener('click', function () {
 
 // })
-{/* <i class="mx-1 status bi bi-arrow-${status}-square-fill"></i>  */ }
+/* <i class="mx-1 status bi bi-arrow-${status}-square-fill"></i>  */
 
-{/* <span class="mx-1">     <i class="status bi bi-arrow-${status}-square-fill"></i> </span> */ }
+/* <span class="mx-1">     <i class="status bi bi-arrow-${status}-square-fill"></i> </span> */
